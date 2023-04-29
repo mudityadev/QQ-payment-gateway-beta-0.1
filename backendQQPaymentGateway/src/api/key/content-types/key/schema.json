@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "keys",
+  "info": {
+    "singularName": "key",
+    "pluralName": "keys",
+    "displayName": "Key",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "publish_key": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "secret_key": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "merchant": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::merchant.merchant",
+      "inversedBy": "keys"
+    },
+    "title": {
+      "type": "string"
+    },
+    "qr_code": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "payment": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::payment.payment",
+      "mappedBy": "key"
+    }
+  }
+}

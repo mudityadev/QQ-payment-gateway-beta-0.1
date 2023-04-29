@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "connect_interfaces",
+  "info": {
+    "singularName": "connect-interface",
+    "pluralName": "connect-interfaces",
+    "displayName": "Connect-Interface",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "session_id": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "product_code": {
+      "type": "string",
+      "required": true
+    },
+    "transactions": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::transaction.transaction",
+      "inversedBy": "connect_interfaces"
+    },
+    "amount": {
+      "type": "float"
+    }
+  }
+}

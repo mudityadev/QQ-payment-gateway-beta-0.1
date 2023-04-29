@@ -1,0 +1,96 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transactions",
+  "info": {
+    "singularName": "transaction",
+    "pluralName": "transactions",
+    "displayName": "Transaction",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "amount": {
+      "type": "decimal",
+      "required": true
+    },
+    "receiver_public_key": {
+      "type": "text",
+      "required": true,
+      "unique": false
+    },
+    "wallet": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::wallet.wallet",
+      "inversedBy": "transactions"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Refunded",
+        "Completed",
+        "Processing",
+        "Canceled",
+        "Initiated"
+      ],
+      "default": "Processing",
+      "required": true
+    },
+    "currency": {
+      "type": "enumeration",
+      "enum": [
+        "INR",
+        "USD",
+        "CNY",
+        "PKR",
+        "BTC",
+        "ETH",
+        "DOGE",
+        "LTC"
+      ]
+    },
+    "sender_public_key": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "gas_fee": {
+      "type": "decimal"
+    },
+    "nonce": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "signature": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "transaction_id": {
+      "type": "uid",
+      "targetField": "nonce",
+      "required": true
+    },
+    "block_number": {
+      "type": "text"
+    },
+    "timestamp": {
+      "type": "text"
+    },
+    "connect_interfaces": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::connect-interface.connect-interface",
+      "mappedBy": "transactions"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "signature",
+      "required": false
+    }
+  }
+}

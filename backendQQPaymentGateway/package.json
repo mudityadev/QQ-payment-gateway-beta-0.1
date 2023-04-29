@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "QQ Pay Backend",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.74.0",
+
+    "@strapi/plugin-i18n": "4.9.1",
+    "@strapi/plugin-users-permissions": "4.9.1",
+    "@strapi/strapi": "4.9.1",
+    
+    "better-sqlite3": "8.0.1",
+    "bip39": "^3.1.0",
+    "crypto-js": "^4.1.1",
+    "joi": "^17.9.1",
+    "pbkdf2": "^3.1.2",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.1",
+    "strapi-plugin-slugify": "^2.3.2"
+  },
+  "author": {
+    "name": "Muditya Raghav"
+  },
+  "strapi": {
+    "uuid": "49fabaa1-896d-4d86-b710-71512c115339"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

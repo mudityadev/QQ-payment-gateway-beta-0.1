@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "merchants",
+  "info": {
+    "singularName": "merchant",
+    "pluralName": "merchants",
+    "displayName": "Merchant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "merchant"
+    },
+    "business_name": {
+      "type": "string",
+      "required": true
+    },
+    "keys": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::key.key",
+      "mappedBy": "merchant"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Electronics",
+        "Fashion",
+        "Home & Garden",
+        "Health & Beauty",
+        "Sports & Outdoors"
+      ]
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

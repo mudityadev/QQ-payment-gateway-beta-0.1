@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wallets",
+  "info": {
+    "singularName": "wallet",
+    "pluralName": "wallets",
+    "displayName": "wallet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "wallet"
+    },
+    "amount": {
+      "type": "decimal",
+      "required": true,
+      "default": 100
+    },
+    "public_address": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "private_address": {
+      "type": "text",
+      "required": true,
+      "unique": true,
+      "private": true
+    },
+    "passphrase": {
+      "type": "text",
+      "required": true,
+      "private": true
+    },
+    "transactions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::transaction.transaction",
+      "mappedBy": "wallet"
+    },
+    "payments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::payment.payment",
+      "mappedBy": "wallet"
+    },
+    "qr": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}

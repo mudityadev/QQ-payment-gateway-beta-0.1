@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "Payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "key": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::key.key",
+      "inversedBy": "payment"
+    },
+    "amount": {
+      "type": "decimal",
+      "required": true
+    },
+    "wallet": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::wallet.wallet",
+      "inversedBy": "payments"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Success",
+        "Failed",
+        "Processing"
+      ]
+    }
+  }
+}
