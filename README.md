@@ -2,7 +2,7 @@
 
 QQ Payment Gateway is an innovative solution that bridges the gap between fiat and cryptocurrencies for small businesses. It streamlines offshore account opening, tackles double spending, and is powered by the lightning-fast Solana Network. Seamlessly integrate with popular e-commerce platforms, access advanced security measures, and enjoy transparent fees.
 
-[![Youtube Video](./Screenshot/23.png)](https://www.youtube.com/watch?v=aW69AcN6NV4)
+[![Youtube Video](https://img.youtube.com/vi/aW69AcN6NV4/0.jpg)](https://www.youtube.com/watch?v=aW69AcN6NV4)
 
 ## Table of Contents
 
