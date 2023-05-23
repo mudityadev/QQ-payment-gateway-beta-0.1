@@ -4,8 +4,6 @@ QQ Payment Gateway is an innovative solution that bridges the gap between fiat a
 
 [![Youtube Video](./Screenshot/23.png)](https://www.youtube.com/watch?v=aW69AcN6NV4)
 
-![Dashboard]()
-
 ## Table of Contents
 
 - [Features](#features)
