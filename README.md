@@ -35,12 +35,10 @@ To integrate QQ Payment Gateway into your project, follow these steps:
 git clone https://github.com/mudityadev/qq-payment-gateway.git
 ```
 
-
 2. Install dependencies
 ```
 npm install
 ```
-
 
 3. Configure environment variables by creating a `.env` file in the root directory and setting the necessary API keys and credentials.
 
@@ -53,109 +51,6 @@ npm run build
 ```
 npm start
 ```
-
-## Usage
-
-For detailed usage instructions and integration guides, please refer to our [documentation](https://link-to-documentation).
-
-## Screenshots
-
-![LandingPage](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/1.png)
-*Landing Page*
-
-![Features](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/2.png)
-*Features*
-
-![Footer](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/3.png)
-*Footer*
-
-![Dashboard](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/4.png)
-*Dashboard*
-
-![SendMoney](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/5.png)
-*Send Money*
-
-![TransactionProcessing](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/6.png)
-*Transaction Processing*
-
-![TransactionSuccessful](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/8.png)
-*Transaction Successful*
-
-![APIKeys](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/10.png)
-*API Keys*
-
-![CreateAPIKey](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/11.png)
-*Create API Key*
-
-![APIKeyVisible](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/12.png)
-*API Key Visible*
-
-![WalletInformation](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/13.png)
-*Wallet Information*
-
-![BusinessInformation](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/15.png)
-*Business Information*
-
-![SetupStore](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/16.png)
-*Setup Store*
-
-![SettingPage](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/17.png)
-*Setting Page*
-
-![TransactionRecord](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/18.png)
-*Transaction Record*
-
-![TransactionInfo](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/19.png)
-*Transaction Info*
-
-![NonceValue](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/20.png)
-*Nonce Value (Solves Double Spending Problem)*
-
-![TransactionDetails](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/21.png)
-*Transaction Details*
-
-![TransactionID](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/22.png)
-*Transaction ID*
-
-![HaldiAndHuesLandingPage1](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/23.png)
-*Haldi and Hues Landing Page*
-
-![HaldiAndHuesLandingPage2](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/24.png)
-*Haldi and Hues Landing Page*
-
-![ProductsCoursol](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/25.png)
-*Products Coursol*
-
-![ProductPage](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/26.png)
-*Product Page*
-
-![Cart](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/28.png)
-*Cart*
-
-![OrderPage](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/29.png)
-*Order Page*
-
-![CheckoutPage](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/30.png)
-*Checkout Page*
-
-![PaymentForm](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/31.png)
-*Payment Form*
-
-![QQPaySession](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/32.png)
-*QQ Pay Session*
-
-![TransactionProcessing2](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/33.png)
-*Transaction Processing...*
-
-![TransactionSuccessful2](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/34.png)
-*Transaction Successful*
-
-![PaymentSuccessfulPage](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/35.png)
-*Payment Successful Page*
-
-![CardJsonEg](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/37.png)
-*Card Json Eg.*
-
 
 ## Future Updates
 
@@ -173,4 +68,3 @@ For any questions or issues, please reach out to our support team at support@ema
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
