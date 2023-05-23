@@ -60,100 +60,100 @@ For detailed usage instructions and integration guides, please refer to our [doc
 
 ## Screenshots
 
-![LandingPage](./Screenshot/1.png)
+![LandingPage](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/1.png)
 *Landing Page*
 
-![Features](./Screenshot/2.png)
+![Features](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/2.png)
 *Features*
 
-![Footer](./Screenshot/3.png)
+![Footer](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/3.png)
 *Footer*
 
-![Dashboard](./Screenshot/4.png)
+![Dashboard](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/4.png)
 *Dashboard*
 
-![SendMoney](./Screenshot/5.png)
+![SendMoney](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/5.png)
 *Send Money*
 
-![TransactionProcessing](./Screenshot/6.png)
+![TransactionProcessing](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/6.png)
 *Transaction Processing*
 
-![TransactionSuccessful](./Screenshot/8.png)
+![TransactionSuccessful](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/8.png)
 *Transaction Successful*
 
-![APIKeys](./Screenshot/10.png)
+![APIKeys](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/10.png)
 *API Keys*
 
-![CreateAPIKey](./Screenshot/11.png)
+![CreateAPIKey](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/11.png)
 *Create API Key*
 
-![APIKeyVisible](./Screenshot/12.png)
+![APIKeyVisible](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/12.png)
 *API Key Visible*
 
-![WalletInformation](./Screenshot/13.png)
+![WalletInformation](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/13.png)
 *Wallet Information*
 
-![BusinessInformation](./Screenshot/15.png)
+![BusinessInformation](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/15.png)
 *Business Information*
 
-![SetupStore](./Screenshot/16.png)
+![SetupStore](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/16.png)
 *Setup Store*
 
-![SettingPage](./Screenshot/17.png)
+![SettingPage](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/17.png)
 *Setting Page*
 
-![TransactionRecord](./Screenshot/18.png)
+![TransactionRecord](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/18.png)
 *Transaction Record*
 
-![TransactionInfo](./Screenshot/19.png)
+![TransactionInfo](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/19.png)
 *Transaction Info*
 
-![NonceValue](./Screenshot/20.png)
+![NonceValue](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/20.png)
 *Nonce Value (Solves Double Spending Problem)*
 
-![TransactionDetails](./Screenshot/21.png)
+![TransactionDetails](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/21.png)
 *Transaction Details*
 
-![TransactionID](./Screenshot/22.png)
+![TransactionID](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/22.png)
 *Transaction ID*
 
-![HaldiAndHuesLandingPage1](./Screenshot/23.png)
+![HaldiAndHuesLandingPage1](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/23.png)
 *Haldi and Hues Landing Page*
 
-![HaldiAndHuesLandingPage2](./Screenshot/24.png)
+![HaldiAndHuesLandingPage2](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/24.png)
 *Haldi and Hues Landing Page*
 
-![ProductsCoursol](./Screenshot/25.png)
+![ProductsCoursol](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/25.png)
 *Products Coursol*
 
-![ProductPage](./Screenshot/26.png)
+![ProductPage](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/26.png)
 *Product Page*
 
-![Cart](./Screenshot/28.png)
+![Cart](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/28.png)
 *Cart*
 
-![OrderPage](./Screenshot/29.png)
+![OrderPage](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/29.png)
 *Order Page*
 
-![CheckoutPage](./Screenshot/30.png)
+![CheckoutPage](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/30.png)
 *Checkout Page*
 
-![PaymentForm](./Screenshot/31.png)
+![PaymentForm](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/31.png)
 *Payment Form*
 
-![QQPaySession](./Screenshot/32.png)
+![QQPaySession](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/32.png)
 *QQ Pay Session*
 
-![TransactionProcessing2](./Screenshot/33.png)
+![TransactionProcessing2](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/33.png)
 *Transaction Processing...*
 
-![TransactionSuccessful2](./Screenshot/34.png)
+![TransactionSuccessful2](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/34.png)
 *Transaction Successful*
 
-![PaymentSuccessfulPage](./Screenshot/35.png)
+![PaymentSuccessfulPage](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/35.png)
 *Payment Successful Page*
 
-![CardJsonEg](./Screenshot/37.png)
+![CardJsonEg](https://github.com/mudityadev/QQ-payment-gateway-beta-0.1/blob/master/Screenshot/37.png)
 *Card Json Eg.*
 
 
